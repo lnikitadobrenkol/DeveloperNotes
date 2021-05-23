@@ -1,0 +1,9 @@
+version: "3"
+services:
+  nest_postgres_application:
+    image: "postgres:11"
+    container_name: "test_nest_postgres_application"
+    ports:
+      - "54321:5432"
+    environment:
+      POSTGRES_PASSWORD: password
