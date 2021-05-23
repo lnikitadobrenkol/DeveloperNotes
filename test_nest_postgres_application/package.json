@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx nodemon server.js --ext ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nestjs/common": "^7.6.17",
+    "@nestjs/common": "^6.5.3",
     "@nestjs/core": "^6.5.3",
     "@nestjs/platform-express": "^6.5.3",
-    "@nestjs/swagger": "^4.8.0",
+    "@nestjs/swagger": "^3.1.0",
     "@okta/okta-auth-js": "^2.6.3",
-    "@okta/okta-sdk-nodejs": "^4.5.1",
+    "@okta/okta-sdk-nodejs": "^2.0.1",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.9.1",
     "cookie-parser": "^1.4.5",
