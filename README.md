@@ -9,3 +9,7 @@ Getting familiar with the basics of cryptography. Please follow the folders in t
  - https://attacomsian.com/blog/nodejs-encrypt-decrypt-data
  - https://nodejs.org/en/knowledge/cryptography/how-to-use-crypto-module/
  - https://developer.okta.com/blog/2020/02/26/build-a-secure-nestjs-api-with-postgres
+
+
+# Useful links
+- Nice built-in util functions: https://1loc.dev/
